@@ -1,38 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  
+
 </head>
+
 <body>
   <header></header>
-
-  <span class="title">
-    How many team members can I invite?
-    <img src="assets/images/icon-arrow-down.svg" alt="arrow">
-  </span> 
-  <p class="desc">You can invite up to 2 additional users on the Free plan. There is no limit on 
-    team members for the Premium plan.
-  </p>
-
-  <span class="title">What is the maximum file upload size?</span>
-  <p class="desc">No more than 2GB. All files in your account must fit your allotted storage space.</p>
-
-  <span class="title">How do I reset my password?</span>
-  <p class="desc">Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.</p>
-
-  <span class="title">Can I cancel my subscription?</span>
-  <p class="desc">Yes! Send us a message and we’ll process your request no questions asked.</p>
-
-  <span class="title">Do you provide additional support?</span>
-  <p class="desc">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-  <script src="assets/js/script.js"></script>
+  <main class="container">
+    <aside>
+      <div class="box"></div>
+    </aside>
+    <section>
+      <h1 class="header-right">FAQ</h1>
+      <div>
+        <span class="title" id="q1">
+          How many team members can I invite?
+          <img id="img1" src="assets/images/icon-arrow-down.svg" alt="arrow">
+        </span>
+        <p class="desc" id="d1">You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.
+        </p>
+      </div>
+      <div>
+        <span class="title" id="q2">What is the maximum file upload size?<img src="assets/images/icon-arrow-down.svg"
+            id="img2" alt="arrow"></span>
+        <p class="desc" id="d2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </div>
+      <div>
+        <span class="title" id="q3">How do I reset my password?<img id="img3" src="assets/images/icon-arrow-down.svg"
+            alt="arrow"></span>
+        <p class="desc" id="d3">Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</p>
+      </div>
+      <div>
+        <span class="title" id="q4">Can I cancel my subscription?<img id="img4" src="assets/images/icon-arrow-down.svg"
+            alt="arrow"></span>
+        <p class="desc" id="d4">Yes! Send us a message and we’ll process your request no questions asked.</p>
+      </div>
+      <div>
+        <span class="title" id="q5">Do you provide additional support?
+          <img id="img5" src="assets/images/icon-arrow-down.svg" alt="arrow">
+        </span>
+        <p class="desc" id="d5">Chat and email support is available 24/7. Phone lines are open during normal business
+          hours.
+        </p>
+      </div>
+      <script src="assets/js/script.js"></script>
+    </section>
+  </main>
 </body>
+
 </html>
